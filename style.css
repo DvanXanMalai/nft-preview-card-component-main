@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+body{
+    background-color: hsl(217, 54%, 11%);
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    display: grid;
+    place-items: center;
+    margin-top: 300px;
+}   
+#main{
+    background-color: hsl(216, 50%, 16%);
+    width: 420px;
+    height: 710px;
+    border-radius: 11px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+#main-img>img{
+    width: 360px;
+    border-radius: 9px;
+    margin-top:29px;
+    margin-left: 31px;
+}
+#main-text{
+    width: 370px;
+    margin-left: 30px;
+
+}
+#main-text>p{
+    font-size:20px;
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+}
+#third-wrapper{
+    margin-left: 31px;
+    margin-top: 30px;
+    display: flex;
+    gap: 160px;
+}
+#main-price{
+    color: hsl(178, 100%, 50%);
+    font-weight: 600;
+    font-size: 1.1rem;
+    display: flex;
+    gap: 8px;
+}
+#main-time{
+    display: flex;
+    width: 100%;
+    gap: 6px;
+    font-size:1rem;
+    color: hsl(215, 51%, 70%);
+    margin-right: 0;
+    
+}
+#main-line{
+    margin-top: 30px;
+}
+#main-line>div{
+    margin-top: 20px;
+    background-color: hsl(215, 32%, 27%);
+    width:360px;
+    height:1.5px;
+    border-radius: 15px;
+    margin-left: 30px;
+}
+#main-last>img{
+    width:40px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+#main-last{
+    color:hsl(215, 51%, 70%);
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    margin-left: 30px;
+    margin-top: 28px;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+span{
+    color: white;
+    margin-left: 7px;
+}
+#main-last>p{
+    margin-left:-30px;
+    padding-top: 10px;
+    margin-top:0;
+    margin-bottom: 0;
+    
+
+}
+.attribution{
+    margin-top: 50px;
+}
+@media only screen and (max-width: 600px){
+    #main{
+        width: 340px;
+        height: 100%;
+    }
+    #main-img>img{
+        width: 290px;
+        margin-left:25px;
+    }
+    #main-text>p{
+        font-size: 18px;
+    }
+    #main-text{
+        width: 280px;
+    }
+    #third-wrapper{
+        height: 20px;
+        display: flex;
+        gap: 90px;
+    }
+    #main-last>img{
+        width: 30px;
+    }
+    #main-last>p{
+        font-size:18px;
+        margin-top:0;
+        padding-top:5px;
+    }
+    #main-last{
+        margin-bottom: 30px;
+    }
+    .attribution{
+        margin-top: 100px;
+    }
+}
